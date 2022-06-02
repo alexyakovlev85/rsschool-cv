@@ -42,3 +42,10 @@ const reverseStr = (str) => {
 
 reverseStr('Hello, World!');
 ```
+
+## Courses:
+
+---
+
+- **HTML/CSS** [HTML Academy](https://htmlacademy.ru/)
+- **JavaScript** [JavaScript.ru](https://learn.javascript.ru/)
