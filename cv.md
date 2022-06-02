@@ -24,3 +24,21 @@ I'm an engineer. I decided to change my occupation because programming has alway
 - JavaScript (Basic)
 - Git
 - Figma
+
+# Code examples
+
+---
+
+```
+const reverseStr = (str) => {
+  let result = '';
+
+  for (i = 0; i < str.length; i++) {
+    result = `${str[i]}${result}`;
+  }
+
+  console.log(result);
+}
+
+reverseStr('Hello, World!');
+```
