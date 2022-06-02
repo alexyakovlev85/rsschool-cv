@@ -49,3 +49,10 @@ reverseStr('Hello, World!');
 
 - **HTML/CSS** [HTML Academy](https://htmlacademy.ru/)
 - **JavaScript** [JavaScript.ru](https://learn.javascript.ru/)
+
+# Languages
+
+---
+
+- **Russian** - Native
+- **English** - A2 (Pre-Intermediate)
