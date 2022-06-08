@@ -453,3 +453,16 @@ body {
 .skills__item--figma::before {
   background-image: url(../assets/svg/figma-icon.svg);
 }
+
+/* Code */
+
+.code__text {
+  padding: 20px;
+
+  font-family: monospace;
+  font-size: 24px;
+  color: var(--text-black);
+
+  background-color: var(--background-gray-transparent);
+  border-radius: 10px;
+}
