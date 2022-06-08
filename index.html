@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="icon" href="assets/svg/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__inner">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="#about">About me</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#contacts">Contacts</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#courses">Courses</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#skills">Skills</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#code">Code examples</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#projects">Projects</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#languages">Languages</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <div class="main__inner">
+          <div class="main__section main__section--left">
+            <section class="profile">
+              <div class="profile__inner">
+                <img
+                  class="profile__img"
+                  src="assets/img/myphoto.jpg"
+                  alt="It's me"
+                  width="300"
+                />
+                <div class="profile__info">
+                  <h1 class="profile__title">
+                    <span class="profile__name">Alexander</span>
+                    <span class="profile__surname">Yakovlev</span>
+                  </h1>
+                  <p class="profile__text">Junior Front-end Developer</p>
+                </div>
+              </div>
+            </section>
+            <section class="contacts" id="contacts">
+              <h2 class="visually-hidden">Contacts</h2>
+              <ul class="contacts__list">
+                <li class="contacts__item">
+                  <a
+                    class="contacts__link contacts__link--phone"
+                    href="tel:+79370107750"
+                    >+7 937-010-77-50</a
+                  >
+                </li>
+                <li class="contacts__item">
+                  <a
+                    class="contacts__link contacts__link--mail"
+                    href="mailto:alex.yakovlev.mail@gmail.com"
+                    >alex.yakovlev.mail@gmail.com</a
+                  >
+                </li>
+                <li class="contacts__item">
+                  <a
+                    class="contacts__link contacts__link--github"
+                    href="https://github.com/alexyakovlev85"
+                    target="_blank"
+                    >alexyakovlev85</a
+                  >
+                </li>
+                <li class="contacts__item">
+                  <a
+                    class="contacts__link contacts__link--telegram"
+                    href="https://t.me/redoran785"
+                    target="_blank"
+                    >@redoran785</a
+                  >
+                </li>
+              </ul>
+            </section>
+            <section class="courses" id="courses">
+              <div class="section__inner">
+                <h2 class="section__title">Courses</h2>
+                <ul class="courses__list">
+                  <li class="courses__item">
+                    HTML/CSS:
+                    <a class="courses__link" href="https://htmlacademy.ru/"
+                      >HTML Academy</a
+                    >
+                  </li>
+                  <li class="courses__item">
+                    JavaScript:
+                    <a class="courses__link" href="https://learn.javascript.ru/"
+                      >JavaScript.ru</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section class="languages" id="languages">
+              <div class="section__inner">
+                <h2 class="section__title">Languages</h2>
+                <ul class="languages__list">
+                  <li class="languages__item">
+                    <span class="languages__language">Russian</span>Native
+                  </li>
+                  <li class="languages__item">
+                    <span class="languages__language">English</span>A2
+                    (Pre-Intermediate)
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+          <div class="main__section main__section--right">
+            <section class="about" id="about">
+              <h2 class="section__title section__title--right">About me</h2>
+              <p class="about__text">
+                I’m an engineer. I decided to change my occupation because
+                programming has always been interesting to me. I was interested
+                in the direction of frontend development. I hope to get the
+                necessary skills and experience in RS School.
+              </p>
+            </section>
+            <section class="skills" id="skills">
+              <h2 class="section__title section__title--right">Skills</h2>
+              <ul class="skills__list">
+                <li class="skills__item skills__item--html">HTML</li>
+                <li class="skills__item skills__item--css">CSS (SCSS)</li>
+                <li class="skills__item skills__item--js">
+                  JavaScript (Basic)
+                </li>
+                <li class="skills__item skills__item--git">Git (GitHub)</li>
+                <li class="skills__item skills__item--figma">Figma</li>
+              </ul>
+            </section>
+            <section class="code" id="code">
+              <h2 class="section__title section__title--right">
+                Code examples
+              </h2>
+              <pre class="code__text">
+              <code>
+const reverseStr = (str) => {
+let result = '';
+
+for (i = 0; i &lt; str.length; i++) {
+  result = `${str[i]}${result}`;
+}
+
+console.log(result);
+}
+
+reverseStr('Hello, World!');</code>
+            </pre>
+            </section>
+            <section class="projects" id="projects">
+              <h2 class="section__title section__title--right">Projects</h2>
+              <ul class="projects__list">
+                <li class="projects__item">
+                  <a
+                    class="projects__link"
+                    href="https://github.com/alexyakovlev85/rsschool-cv"
+                    target="_blank"
+                    ><img
+                      src="assets/img/cv-project.jpg"
+                      alt="CV Project"
+                      class="projects__img"
+                      width="350"
+                      height="209" />
+                    <div class="projects__description">
+                      <h3 class="projects__subtitle">CV</h3>
+                      <img
+                        class="projects__description-img"
+                        src="assets/svg/html.png"
+                        alt="HTML5"
+                        width="32"
+                        height="36"
+                      />
+                      <img
+                        class="projects__description-img"
+                        src="assets/svg/css.png"
+                        alt="CSS"
+                        width="32"
+                        height="37"
+                      /></div
+                  ></a>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__inner">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a
+                class="footer__link"
+                href="https://github.com/alexyakovlev85"
+                target="_blank"
+                ><img
+                  class="footer__img"
+                  src="assets/svg/github-footer-icon.svg"
+                  alt="My Github"
+                  width="96"
+                  height="96"
+              /></a>
+            </li>
+            <li class="footer__item">2022</li>
+            <li class="footer__item">
+              <a
+                class="footer__link"
+                href="https://rs.school/js/"
+                target="_blank"
+                ><img
+                  class="footer__img"
+                  src="assets/svg/rsschool-icon.svg"
+                  alt="RS School"
+                  width="96"
+                  height="96"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
