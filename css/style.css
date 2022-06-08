@@ -399,3 +399,57 @@ body {
 .about__text {
   color: var(--text-black);
 }
+
+/* Skills */
+
+.skills__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--text-black);
+}
+
+.skills__item {
+  position: relative;
+
+  padding-top: 160px;
+}
+
+.skills__item::before {
+  content: '';
+
+  position: absolute;
+  top: 0;
+  left: 50%;
+
+  width: 144px;
+  height: 144px;
+
+  background-repeat: no-repeat;
+  transform: translateX(-50%);
+}
+
+.skills__item--html::before {
+  background-image: url(../assets/svg/html-icon.svg);
+}
+
+.skills__item--css::before {
+  background-image: url(../assets/svg/css-icon.svg);
+}
+
+.skills__item--js::before {
+  background-image: url(../assets/svg/js-icon.svg);
+}
+
+.skills__item--git::before {
+  background-image: url(../assets/svg/git-icon.svg);
+}
+
+.skills__item--figma::before {
+  background-image: url(../assets/svg/figma-icon.svg);
+}
