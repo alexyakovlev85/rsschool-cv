@@ -332,3 +332,28 @@ body {
 .contacts__link--telegram::before {
   background-image: url(../assets/svg/telegram-icon.svg);
 }
+
+/* Courses */
+
+.courses__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.courses__item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.courses__link {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  color: var(--text-black);
+
+  transition: 0.3s;
+}
+
+.courses__link:hover,
+.courses__link:focus {
+  transform: translateX(2%);
+}
