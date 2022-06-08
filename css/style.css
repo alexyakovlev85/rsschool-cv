@@ -211,3 +211,68 @@ body {
   transform: scale(1.01);
   box-shadow: 5px 5px 5px var(--shadow);
 }
+
+/* Main */
+
+.main__inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.main__section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 40px;
+
+  border-radius: 10px;
+}
+
+.main__section--left {
+  background-color: var(--background-gray-transparent);
+}
+
+.main__section--right {
+  background-color: var(--background-white-transparent);
+}
+
+/* Profile */
+
+.profile {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+.profile__inner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile__img {
+  border-radius: 50%;
+}
+
+.profile__info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.profile__name {
+  font-size: 50px;
+  font-weight: 400;
+  color: var(--text-gray);
+}
+
+.profile__surname {
+  font-size: 60px;
+  font-weight: 700;
+  color: var(--text-white);
+}
+
+.profile__text {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--text-gray);
+}
