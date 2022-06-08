@@ -357,3 +357,39 @@ body {
 .courses__link:focus {
   transform: translateX(2%);
 }
+
+/* Languages */
+
+.languages__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.languages__item {
+  position: relative;
+
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding-left: 30px;
+}
+
+.languages__item::before {
+  content: '';
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+
+  width: 20px;
+  height: 20px;
+
+  background-image: url(../assets/svg/list-marker.svg);
+  background-repeat: no-repeat;
+
+  transform: translateY(-50%);
+}
+
+.languages__language {
+  font-weight: 700;
+}
