@@ -511,3 +511,39 @@ body {
 .projects__description-img:not(:last-child) {
   margin-left: auto;
 }
+
+/* Footer */
+
+.footer__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-weight: 700;
+}
+
+.footer__link {
+  transition: 0.3s;
+}
+
+.footer__link:hover,
+.footer__link:focus {
+  transform: scale(1.1);
+  filter: drop-shadow(5px 5px 2px var(--shadow));
+}
+
+.footer__img {
+  width: 96px;
+  height: 96px;
+}
+
+/* Media */
+
+@media (max-width: 768px) {
+  .main__inner {
+    display: flex;
+    flex-direction: column;
+  }
+}
