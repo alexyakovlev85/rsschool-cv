@@ -10,3 +10,11 @@
 ## About Me
 
 I'm an engineer. I decided to change my occupation because programming has always been interesting to me. I was interested in the direction of frontend development. I hope to get the necessary skills and experience in RS School.
+
+## Skills
+
+- HTML
+- CSS (SCSS)
+- JavaScript (Basic)
+- Git
+- Figma
