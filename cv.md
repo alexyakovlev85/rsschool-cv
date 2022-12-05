@@ -19,7 +19,7 @@ I'm an engineer. I decided to change my occupation because programming has alway
 - Git
 - Figma
 
-# Code examples
+## Code examples
 
 ```
 const reverseStr = (str) => {
@@ -40,7 +40,7 @@ reverseStr('Hello, World!');
 - **HTML/CSS:** [HTML Academy](https://htmlacademy.ru/)
 - **JavaScript:** [JavaScript.ru](https://learn.javascript.ru/)
 
-# Languages
+## Languages
 
 - **Russian** - Native
 - **English** - A2 (Pre-Intermediate)
