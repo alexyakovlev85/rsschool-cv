@@ -5,12 +5,211 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Alexander Yakovlev CV</title>
 </head>
 
-<body>
+<body class="page">
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <div class="hamburger">
+          <div class="hamburger__item"></div>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#about">About me</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contacts">Contacts</a></li>
+          <li class="nav__item"><a class="nav__link" href="#courses">Courses</a></li>
+          <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+          <li class="nav__item"><a class="nav__link" href="#code">Code example</a></li>
+          <li class="nav__item"><a class="nav__link" href="#projects">Projects</a></li>
+          <li class="nav__item"><a class="nav__link" href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="profile">
+      <div class="container profile__container">
+        <div class="profile__photo">
+          <img class="profile__img" src="img/photo.jpg" alt="Моя фотография." width="300" height="300">
+        </div>
+        <div class="proofile__content">
+          <h1 class="main-title">Alexander Yakovlev</h1>
+          <p class="profile__text">Junior Front-end Developer</p>
+        </div>
+      </div>
 
+    </section>
+    <div class="container main__container">
+      <div class="main__left">
+        <section class="about section" id="about">
+          <h2 class="section-title">About me</h2>
+          <p class="about__text">I’m an engineer. I decided to change my profession because programming has always been
+            interesting to me. I was interested in the direction of frontend development. I hope to get the necessary
+            skills and experience in RS School.</p>
+        </section>
+        <section class="courses section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <ul class="courses__list">
+            <li class="courses__item">
+              <h3 class="courses__subtitle">HTML/CSS:</h3>
+              <a class="courses__link" href="https://htmlacademy.ru/" target="_blank">HTML Academy</a>
+            </li>
+            <li class="courses__item">
+              <h3 class="courses__subtitle">JavaScript:</h3>
+              <a class="courses__link" href="https://learn.javascript.ru/" target="_blank">JavaScript.ru</a>
+            </li>
+          </ul>
+        </section>
+        <section class="contacts section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <a class="contacts__link" href="tel:89370107750" target="_blank"><svg version="1.1"
+                  xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="#5096f1">
+                  <title>phone</title>
+                  <path
+                    d="M22 20c-2 2-2 4-4 4s-4-2-6-4-4-4-4-6 2-2 4-4-4-8-6-8-6 6-6 6c0 4 4.109 12.109 8 16s12 8 16 8c0 0 6-4 6-6s-6-8-8-6z">
+                  </path>
+                </svg>+7 937-010-77-50</a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link" href="mailto:alex.yakovlev.mail@gmail.com" target="_blank"><svg version="1.1"
+                  xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="#5096f1">
+                  <title>envelop</title>
+                  <path
+                    d="M29 4h-26c-1.65 0-3 1.35-3 3v20c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-20c0-1.65-1.35-3-3-3zM12.461 17.199l-8.461 6.59v-15.676l8.461 9.086zM5.512 8h20.976l-10.488 7.875-10.488-7.875zM12.79 17.553l3.21 3.447 3.21-3.447 6.58 8.447h-19.579l6.58-8.447zM19.539 17.199l8.461-9.086v15.676l-8.461-6.59z">
+                  </path>
+                </svg>alex.yakovlev.mail@gmail.com</a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link" href="https://github.com/alexyakovlev85" target="_blank"><svg version="1.1"
+                  xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="#5096f1">
+                  <title>github</title>
+                  <path
+                    d="M16 0.395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182 0.8 0.148 1.094-0.347 1.094-0.77 0-0.381-0.015-1.642-0.022-2.979-4.452 0.968-5.391-1.888-5.391-1.888-0.728-1.849-1.776-2.341-1.776-2.341-1.452-0.993 0.11-0.973 0.11-0.973 1.606 0.113 2.452 1.649 2.452 1.649 1.427 2.446 3.743 1.739 4.656 1.33 0.143-1.034 0.558-1.74 1.016-2.14-3.554-0.404-7.29-1.777-7.29-7.907 0-1.747 0.625-3.174 1.649-4.295-0.166-0.403-0.714-2.030 0.155-4.234 0 0 1.344-0.43 4.401 1.64 1.276-0.355 2.645-0.532 4.005-0.539 1.359 0.006 2.729 0.184 4.008 0.539 3.054-2.070 4.395-1.64 4.395-1.64 0.871 2.204 0.323 3.831 0.157 4.234 1.026 1.12 1.647 2.548 1.647 4.295 0 6.145-3.743 7.498-7.306 7.895 0.574 0.497 1.085 1.47 1.085 2.963 0 2.141-0.019 3.864-0.019 4.391 0 0.426 0.288 0.925 1.099 0.768 6.354-2.118 10.933-8.113 10.933-15.18 0-8.837-7.164-16-16-16z">
+                  </path>
+                </svg>alexyakovlev85</a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link" href="https://t.me/redoran785" target="_blank"><svg version="1.1"
+                  xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="#5096f1">
+                  <title>telegram</title>
+                  <path
+                    d="M16 0c-8.838 0-16 7.162-16 16s7.162 16 16 16 16-7.163 16-16-7.163-16-16-16zM23.863 10.969l-2.625 12.369c-0.181 0.881-0.712 1.087-1.45 0.681l-4-2.956-1.919 1.869c-0.225 0.219-0.4 0.4-0.8 0.4-0.519 0-0.431-0.194-0.606-0.688l-1.363-4.475-3.956-1.231c-0.856-0.262-0.862-0.85 0.194-1.269l15.412-5.95c0.7-0.319 1.381 0.169 1.113 1.25z">
+                  </path>
+                </svg>redoran785</a>
+            </li>
+          </ul>
+        </section>
+        <section class="languages section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul class="languages__list">
+            <li class="languages__item">
+              <h3 class="languages__subtitle">Russian</h3>
+              <p class="languages__text">Native</p>
+            </li>
+            <li class="languages__item">
+              <h3 class="languages__subtitle">English</h3>
+              <p class="languages__text">A2 (Pre-Intermediate)</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="main__right">
+        <section class="skills section section--right" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="skills__list">
+            <li class="skills__item">
+              <img class="skills__img" src="img/html.svg" alt="HTML." width="96" height="96">
+              <p class="skills__text">HTML</p>
+            </li>
+            <li class="skills__item">
+              <img class="skills__img" src="img/css.svg" alt="CSS." width="96" height="96">
+              <p class="skills__text">CSS</p>
+            </li>
+            <li class="skills__item">
+              <img class="skills__img" src="img/javascript.svg" alt="JavaScript." width="96" height="96">
+              <p class="skills__text">JavaScript</p>
+            </li>
+            <li class="skills__item">
+              <img class="skills__img" src="img/git.svg" alt="GIT." width="96" height="96">
+              <p class="skills__text">GIT</p>
+            </li>
+            <li class="skills__item">
+              <img class="skills__img" src="img/figma.svg" alt="Figma." width="96" height="96">
+              <p class="skills__text">Figma</p>
+            </li>
+          </ul>
+        </section>
+        <section class="code section section--right" id="code">
+          <h2 class="section-title">Code example</h2>
+          <pre class="code__text">
+            <code>
+const reverseStr = (str) =&gt; {
+  let result = '';
+
+  for (let i = 0; i &lt; str.length; i++) {
+    result = `${str[i]}${result}`;
+  }
+
+    console.log(result);
+  };
+
+reverseStr('Hello, World!');
+            </code>
+          </pre>
+        </section>
+        <section class="projects section section--right" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <ul class="projects__list">
+            <li class="projects__item">
+              <a class="projects__link" href="https://github.com/alexyakovlev85/rsschool-cv" target="_blank"><img
+                  class="projects__img" src="img/cv.jpg" alt="CV." width="300">CV</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a class="footer__link" href="https://github.com/alexyakovlev85" target="_blank">
+            <img class="footer__img" src="img/github-footer.svg" alt="Github." width="80">
+          </a>
+        </li>
+        <li class="footer__item">
+          <p class="footer__text">2022</p>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="https://rs.school/js/" target="_blank">
+            <img class="footer__img footer__img--rs" src="img/rs-school.svg" alt="Rs school." width="100">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
