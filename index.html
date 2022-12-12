@@ -160,6 +160,24 @@
             </li>
           </ul>
         </section>
+        <section class="code section section--right" id="code">
+          <h2 class="section-title">Code example</h2>
+          <pre class="code__text">
+            <code>
+const reverseStr = (str) =&gt; {
+  let result = '';
+
+  for (let i = 0; i &lt; str.length; i++) {
+    result = `${str[i]}${result}`;
+  }
+
+    console.log(result);
+  };
+
+reverseStr('Hello, World!');
+            </code>
+          </pre>
+        </section>
       </div>
     </div>
   </main>
